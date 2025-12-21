@@ -73,6 +73,7 @@
     <Folder Include="Security\" />
     <Folder Include="SalesLT\XMLSchemaCollections\" />
     <Folder Include="dbo\XMLSchemaCollections\" />
+    <Folder Include="Student_1\Functions\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\ErrorLog.sql" />
@@ -111,5 +112,7 @@
     <Build Include="SalesLT\Tables\ProductAttribute.sql" />
     <Build Include="234591\Tables\CustomerHistory.sql" />
     <Build Include="dbo\XMLSchemaCollections\ProductAttributes.sql" />
+    <Build Include="Student_1\Functions\ufn_ProductsJsonByCategory.sql" />
+    <Build Include="Student_1\Functions\ufn_IsPriceHigherThanCurrent.sql" />
   </ItemGroup>
 </Project>
