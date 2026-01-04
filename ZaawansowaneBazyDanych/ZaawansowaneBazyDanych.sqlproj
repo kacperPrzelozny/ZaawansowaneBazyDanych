@@ -76,6 +76,7 @@
     <Folder Include="Student_1\Functions\" />
     <Folder Include="K1_surname\" />
     <Folder Include="K1_surname\User Defined Types\" />
+    <Folder Include="Student_1\Stored Procedures\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\ErrorLog.sql" />
@@ -118,5 +119,13 @@
     <Build Include="Student_1\Functions\ufn_IsPriceHigherThanCurrent.sql" />
     <Build Include="K1_surname\User Defined Types\LastName.sql" />
     <Build Include="Security\K1_surname.sql" />
+    <Build Include="SalesLT\Tables\ProductInventory.sql" />
+    <Build Include="dbo\Functions\udf_CheckIfCustomerEmailExist.sql" />
+    <Build Include="Student_1\Stored Procedures\usp_ProcessTopProducts.sql" />
+    <Build Include="dbo\Stored Procedures\usp_UpdateCustomer.sql" />
+    <Build Include="dbo\Stored Procedures\usp_GetCustomers.sql" />
+    <Build Include="dbo\Stored Procedures\usp_AddNewProduct.sql" />
+    <Build Include="dbo\Stored Procedures\usp_AddCustomer.sql" />
+    <Build Include="dbo\User Defined Types\ProductSummaryType.sql" />
   </ItemGroup>
 </Project>
